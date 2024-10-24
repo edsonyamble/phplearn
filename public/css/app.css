@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+:root {
+    --dark: #3c4350;
+    --accent: #e27c33;
+    --gray-l: #fbfbfb;
+    --gray-d: #a6a6a6;
+    --gray-sd: #7b7b7b;
+    --text: #333;
+}
+/* box-sizing определяет как вычисляется общая ширина и высота элемента */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: var(--text);
+    min-width: 340px;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+.top-line {
+    background-color: var(--dark);
+    color: white;
+    height: 50px;
+    font-size: 14px;
+}
+.top-line .container {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    height: 100%;
+}
+.select-city__icon {
+    margin-left: 15px;
+}
+.pick-up-point {
+    padding-left: 35px;
+    padding-right: 35px;
+    border-right: 1px solid #636973;
+}
+.top-line__main {
+    align-items: stretch;
+    height: 100%;
+}
+.select-city {
+    padding-right: 35px;
+    border-right: 1px solid #636973;
+}
+.pick-up-point__icon {
+    margin-right: 15px;
+}
+.top-line-time {
+    padding-left: 35px;
+}
+.top-line-time__text {
+    color: gray;
+}
+.top-line-time__text span {
+    color: #ffff;
+}
+.user-account__icon {
+    margin-right: 15px;
+}
+/* midle-line */
+.midle-line .container {
+    align-items: stretch;
+}
+.ml-logo img {
+    width: 80px;
+}
+
+.midle-line .ml-logo {
+    width: 15%;
+    padding: 15px 0;
+    border-right: 1px solid rgb(243, 243, 243);
+}
+.fast-search {
+    width: 40%;
+    padding: 15px 35px;
+    border-right: 1px solid rgb(243, 243, 243);
+}
+.ml-callback {
+    width: 20%;
+}
+.ml-action {
+    width: 25%;
+}
+.fast-search__input {
+    position: relative;
+}
+.fast-search__input input {
+    width: 100%;
+    height: 50px;
+    background-color: var(--gray-l);
+    border: 1px solid rgb(231, 231, 231);
+    padding: 0 15px;
+}
+.fast-search__input input:focus {
+    border: 3px solid red;
+    /* это чтобы убрать бордер вокруг инпута */
+    outline: none;
+}
+.fast-search__icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
