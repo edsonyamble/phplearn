@@ -171,9 +171,23 @@
             <h2 class="categories__title">Более 30 000 продуктов ждут тебя</h2>
             <span class="categories__desc">
                 Интернет-магазин который предлагает только высококачественные продукты с доставкой по всей России и
-                странам СНГ с гарантией качества и безопасности покупателя в течение 7 дней с момента заказа и возврата
+                странам СНГ с гарантией качества и безопасности покупателя в течение 7 дней с момента заказа и
+                возврата
                 товара.
             </span>
+            <div class="categories__items">
+                <div class="categories__item">
+                    <div class="categories__item_icon">
+                        <img src="{{ asset('images/table.svg') }}" alt="">
+                    </div>
+                    <h4 class="categories__item_title">
+                        Комоды и Тумбы
+                    </h4>
+                    <div class="categories__item_count">
+                        60
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
