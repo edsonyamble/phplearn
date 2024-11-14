@@ -187,7 +187,25 @@
                         60
                     </div>
                 </div>
+
+                <div class="categories__item">
+                    <div class="categories__item_icon">
+                        <img src="{{ asset('images/table.svg') }}" alt="">
+                    </div>
+                    <h4 class="categories__item_title">
+                        Мебель для детей
+                    </h4>
+                    <div class="categories__item_count">
+                        60
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+
+    <section class="sale">
+        <div class="container">
+            
         </div>
     </section>
 
